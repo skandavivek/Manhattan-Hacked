@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Manhattan: Collective Risks of Connected Vehicles</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="static/js/bootstrap-slider.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">City disruption</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Under the hood</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Manhattan Hacked</h1>
+                        <p class="intro-text">What happens when connected vehicles are hacked across Manhattan?<br>Explore city-wide disruptions</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <!--h2>About Grayscale</h2-->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+var imageUrl = new Array();
+
+        imageUrl[0] = 'static/img/0.png';
+
+        imageUrl[1] = 'static/img/1.png';
+
+        imageUrl[2] = 'static/img/2.png';
+
+        imageUrl[3] = 'static/img/3.png';
+
+        imageUrl[4] = 'static/img/4.png';
+
+        imageUrl[5] = 'static/img/5.png';
+
+        imageUrl[6] = 'static/img/6.png';
+
+        imageUrl[7] = 'static/img/7.png';
+
+        imageUrl[8] = 'static/img/8.png';
+
+        imageUrl[9] = 'static/img/9.png';
+
+        imageUrl[10] = 'static/img/10.png';
+
+        imageUrl[11] = 'static/img/11.png';
+
+        imageUrl[12] = 'static/img/12.png';
+
+        imageUrl[13] = 'static/img/13.png';
+
+        imageUrl[14] = 'static/img/14.png';
+
+        imageUrl[15] = 'static/img/15.png';
+
+        imageUrl[16] = 'static/img/16.png';
+
+        imageUrl[17] = 'static/img/17.png';
+
+        imageUrl[18] = 'static/img/18.png';
+
+        imageUrl[19] = 'static/img/19.png';
+
+        imageUrl[20] = 'static/img/20.png';
+
+$(document).on('input change', '#slider', function() {//listen to slider changes
+    var v=$(this).val();//getting slider val
+   $('#sliderStatus').html( $(this).val() );
+  $("#img").prop("src", imageUrl[v]);
+});
+</script>
+
+<input type="range" id="slider" value="0.0" min="0" max="20" step="1" />
+<br /><br />
+<img src="" width="50%" height="50%" id='img' />
+<span id="sliderStatus">0</span>% of Vehicles hacked at rush hour
+
+
+                <p>In 2015, a group of white-hat hackers showed that a single Jeep Grand Cherokee can be hacked remotely. 
+		Imagine a scenario where hackers breach multiple vehicles on the road, leading to multiple roads being blocked.
+		White segments are those accessible. As more and more roads get blocked, more and more of the city fades away (roads are inaccessible). We find that it just takes 10-20% of 			vehicles on the road to cause half the city to be disrupted from the rest.</p>
+                <p>Read more for details on how we quantify the impacts of hacking on traffic.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Under the hood</h2>
+		    <img src="static/img/perc-anim.png" width="70%" height="70%" />
+		<p>We compute disruption probability of each road based on how likely vehicles hacked randomly have a configuration (as shown above)
+		that completely blocks the road. This type of scenario is particularly concerning, as essential traffic like emergency vehicles can't pass through.
+		We use percolation theory (see below) to predict likelihood of this scenario based on various factors</p>
+		    <img src="static/img/perc.png" width="70%" height="70%" />
+                    <p>Percolation based probability of disruption. L is the length of the road, l is the number of lanes, &rho;<sub>H</sub>  denotes hacked vehicle
+			density (# Hacked Vehicles/km/lane). s denotes twice minimum vehicle-vehicle separation (we take as typically 7m between cars). Based on percolation
+			probability (between 0 and 1), we choose roads across Manhattan as being  blocked(random number between 0-1 &lt; P<sub>P</sub> ) or not blocked 
+			(random number between 0-1 &gt; P<sub>P</sub>)  </p>
+		    <img src="static/img/cluster-comb.png" width="120%" height="120%" />
+		    <p>Clusters of connected roads. Same color denotes roads that are part of the same cluster, i.e. all connected. When no hacked vehicles, all are connected (yellow). But 				as there are more hacked vehicles, more colors show up, and each cluster is inaccessible from the other. Somewhere between 10-20% of vehicles at rush hour hacked, 
+		the size of the largest cluster dramatically reduces. We call this threshold (~10-15 hacked vehicles/km/lane) the point of city fragmentation. Essentially half the city is inaccessible from the rest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About</h2>
+		<p>Our custom code is available on GitHub (left). We used Open Street Maps for Python (OsMnX) for network analyses on Manhattan.
+		Traffic simulations were done using the Intelligent Driver Model (not shown here), to validate percolation formula. The website code is the GitHub link on the right</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/dyanni3/Traffic-Simulations" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/dyanni3/Traffic-Simulations" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap-slider.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="static/js/jquery.easing.min.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="static/js/grayscale.js"></script>
+
+</body>
+
+</html>
