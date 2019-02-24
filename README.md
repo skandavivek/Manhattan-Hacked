@@ -5,7 +5,7 @@ In 2015, a group of white-hat hackers showed that a single Jeep Grand Cherokee c
 
 
 Heroku app on: 
-https://www.google.com/url?q=https://manhattan-hackedvehicles.herokuapp.com/&sa=D&source=hangouts&ust=1551103580887000&usg=AFQjCNF3twja7vCI3TfTTV8BnMu_NRNuqA
+https://manhattan-hackedvehicles.herokuapp.com/
 
 The template for this site was built on the shoulders of giants:
 
