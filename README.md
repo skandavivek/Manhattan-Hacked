@@ -1,26 +1,14 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+#This app was built to showcase our work on the Cyber-Physical Risks of Hacked Internet-Connected Vehicles. The original code for the work is at: https://github.com/dyanni3/Traffic-Simulations
 
-## Getting Started
+In 2015, a group of white-hat hackers showed that a single Jeep Grand Cherokee can be hacked remotely. Imagine a scenario where hackers breach multiple vehicles on the road, leading to multiple roads being blocked. White segments are those accessible. As more and more roads get blocked, more and more of the city fades away (roads are inaccessible). We find that it just takes 10-20% of vehicles on the road to cause half the city to be disrupted from the rest. Form more, see the app below:
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
 
-## Bugs and Issues
+Heroku app on: 
+https://www.google.com/url?q=https://manhattan-hackedvehicles.herokuapp.com/&sa=D&source=hangouts&ust=1551103580887000&usg=AFQjCNF3twja7vCI3TfTTV8BnMu_NRNuqA
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+The template for this site was built on the shoulders of giants:
 
-## Creator
+http://startbootstrap.com/template-overviews/grayscale/
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+https://github.com/samuelklee/taxi-strategy
